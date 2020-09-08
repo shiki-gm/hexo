@@ -117,7 +117,9 @@ live2d:
   tagMode: false
   log: false
   model:
+    # use: live2d-widget-model-miku #显示什么角色
     use: live2d-widget-model-shizuku #显示什么角色
+
   display: #显示位置和大小
     position: right
     width: 150
