@@ -106,3 +106,23 @@ deploy:
   type: git
   repo: git@github.com:Teeeeeequila/gm.github.io.git
   branch: master
+
+# 删除#的内容
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: node_modules/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  log: false
+  model:
+    use: live2d-widget-model-shizuku #显示什么角色
+  display: #显示位置和大小
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: true
+  react:
+    opacity: 0.8 #透明度,1为不透明
